@@ -1,0 +1,59 @@
+\documentclass[
+    article, 
+    12pt, 
+    oneside, 
+    a4paper, 
+    english, 
+    brazil
+    ]{abntex2}
+
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+\usepackage{nomencl}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{fourier}
+\usepackage{microtype}
+\usepackage{ragged2e}
+\usepackage{lipsum}
+\usepackage[brazilian,hyperpageref]{backref}
+\usepackage[alf]{abntex2cite}
+
+\setlength{\parindent}{1.3cm}
+\setlength{\parskip}{0.2cm}
+\SingleSpacing
+
+\begin{document}
+
+    \begin{tikzpicture}[remember picture, overlay]
+        \node(Logo) at (current page.north west) [anchor=north west,xshift=2.5cm, yshift=-1.5cm] {\includegraphics{img/logo.png}};
+    \end{tikzpicture}
+
+    \
+
+    \begin{center}
+        \textbf{TÍTULO EM PORTUGUÊS EM NEGRITO, CAIXA ALTA, CENTRALIZADO, FONTE TIMES NEW ROMAN 12, ESPAÇAMENTO SIMPLES}
+
+        \
+  
+        \textbf{TÍTULO EM INGLÊS EM NEGRITO, CAIXA ALTA, CENTRALIZADO, FONTE TIMES NEW ROMAN 12, ESPAÇAMENTO SIMPLES}
+
+        \
+
+        \centering{Apresentação: Relato de Experiência}
+
+        \
+
+        João Victor dos Santos Mendes\footnote{Graduando de Licenciatura em Informática do Instituto Federal de Educação, Ciência e Tecnologia do Piauí, Campus Teresina Zona Sul. E-MAIL.}; Érika Lourrane Leôncio Lima\footnote{Professor/a Me. do Eixo de Disciplinas Pedagógica do curso de Licenciatura em Informática do Instituto Federal de Educação, Ciência e Tecnologia do Piauí, Campus Teresina Zona Sul. E-MAIL.}
+    \end{center}
+
+    \input{introducao.tex}
+    \input{relato_experiencia.tex}
+    \input{consideracoes.tex}
+    \bibliography{referencias.bib}
+
+\end{document}
