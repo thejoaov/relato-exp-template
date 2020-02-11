@@ -5,4 +5,21 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[Machado 2002]{machado2002}
+\abntrefinfo{Machado}{MACHADO}{2002}
+{MACHADO, L. P.~L. Novas tecnologias na educação: reflexões sobre a
+  prática.
+\emph{Maceió: EDUFAL}, 2002.}
+
+\bibitem[Nérici 1997]{nerici1987}
+\abntrefinfo{Nérici}{NéRICI}{1997}
+{NéRICI, I.~G. Didática geral dinâmica.
+\emph{São Paulo: Atlas}, 1997.}
+
+\bibitem[Rinaldi 1997]{rinaldi1997}
+\abntrefinfo{Rinaldi}{RINALDI}{1997}
+{RINALDI, G. A educação dos surdos.
+\emph{Brasília: Ministério da Educação e do Desporto - Secretaria de
+  Educação Especial, v. 2, n. 4}, 1997.}
+
 \end{thebibliography}
